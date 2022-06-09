@@ -1,0 +1,1 @@
+Untuk file dengan keterangan
