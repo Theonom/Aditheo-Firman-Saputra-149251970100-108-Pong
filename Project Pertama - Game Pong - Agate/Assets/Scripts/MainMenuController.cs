@@ -10,4 +10,9 @@ public class MainMenuController : MonoBehaviour
         SceneManager.LoadScene("Play Scene");
         Debug.Log("Create by Aditheo Firman Saputra-149251970100-108");
     }
+
+    public void Credit()
+    {
+        SceneManager.LoadScene("Credit");
+    }
 }

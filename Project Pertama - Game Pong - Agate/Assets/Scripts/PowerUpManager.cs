@@ -8,11 +8,10 @@ public class PowerUpManager : MonoBehaviour
     public int maxPowerUpAmount;
     public Vector2 powerUpAreaMin;
     public Vector2 powerUpAreaMax;
-    public List<GameObject> powerUpTemplateList;
-
-    private List<GameObject> powerUpList;
-
     public int spawnInterval;
+
+    public List<GameObject> powerUpTemplateList;
+    private List<GameObject> powerUpList;
 
     private float timer;
 
@@ -42,7 +41,7 @@ public class PowerUpManager : MonoBehaviour
     {
         if (powerUpList.Count >= maxPowerUpAmount)
         {
-            RemovePowerUp(powerUpList[0]);
+            //RemovePowerUp(powerUpList[0]);
             return;
         }
 
